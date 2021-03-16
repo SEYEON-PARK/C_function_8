@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+void print(char a[]);
+
+int main(void)
+{
+	char name[30];
+
+	printf("당신의 이름을 입력하시오. : ");
+	scanf_s("%s", name, sizeof(name));
+
+	print(name);
+
+	return 0;
+}
+
+void print(char a[])
+{
+	printf("당신의 이름은 %s입니다.\n", a);
+}
