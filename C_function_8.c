@@ -4,9 +4,9 @@ void print(char a[]);
 
 int main(void)
 {
-	char name[30];
+	char name[30]; // name ë³€ìˆ˜ ìƒì„±
 
-	printf("´ç½ÅÀÇ ÀÌ¸§À» ÀÔ·ÂÇÏ½Ã¿À. : ");
+	printf("ë‹¹ì‹ ì˜ ì´ë¦„ì„ ì…ë ¥í•˜ì‹œì˜¤. : ");
 	scanf_s("%s", name, sizeof(name));
 
 	print(name);
@@ -16,5 +16,5 @@ int main(void)
 
 void print(char a[])
 {
-	printf("´ç½ÅÀÇ ÀÌ¸§Àº %sÀÔ´Ï´Ù.\n", a);
+	printf("ë‹¹ì‹ ì˜ ì´ë¦„ì€ %sì…ë‹ˆë‹¤.\n", a);
 }
